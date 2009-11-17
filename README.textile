@@ -1,0 +1,5 @@
+h1. Background
+
+This will be an implementation of the mongodb driver spec in Google's go language.
+
+I used "samus's":http://github.com/samus/mongodb-csharp csharp driver as a model.  Thanks, samus.
