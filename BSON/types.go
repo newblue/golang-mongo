@@ -26,10 +26,9 @@ const (
 )
 
 type BsonType interface {
-  TypeNumber() BsonTypeId;
+	TypeNumber() BsonTypeId;
 }
 
-type BsonNumber float;
-func (num BsonNumber) TypeNumber() BsonTypeId {
-  return Number;
-}
+type BsonNumber float
+
+func (num BsonNumber) TypeNumber() BsonTypeId	{ return Number }
