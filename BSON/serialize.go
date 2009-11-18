@@ -1,10 +1,10 @@
 package bson
 
 import (
-  //"fmt";
-  "os";
+	//"fmt";
+	"os";
 )
 
-func Serialize(rawDoc map[string]interface{}) (s string,error os.Error) {
-  return "TODO",nil
+func Serialize(rawDoc map[string]interface{}) (s string, error os.Error) {
+	return "TODO", nil
 }
