@@ -5,12 +5,10 @@ import (
 )
 
 func TestBsonInt(t *testing.T) {
-	var testVar BsonType;
-	var num BsonNumber;
-	num = 0.0;
-	testVar = num;
-	typeNumber := testVar.TypeNumber();
-	if typeNumber != Number {
-		t.Errorf("Int failed, Expecting %d. Got %d", Number, typeNumber)
+	if Array != 4 {
+		t.Errorf("Array has wrong type id")
 	}
+  if Binary != 5 {
+    t.Errorf("Binary has wrong type id")
+  }
 }

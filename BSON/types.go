@@ -24,11 +24,3 @@ const (
 	MinKey	BsonTypeId	= -1;
 	MaxKey	BsonTypeId	= 127;
 )
-
-type BsonType interface {
-	TypeNumber() BsonTypeId;
-}
-
-type BsonNumber float
-
-func (num BsonNumber) TypeNumber() BsonTypeId	{ return Number }
